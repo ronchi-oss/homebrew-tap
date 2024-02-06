@@ -1,5 +1,7 @@
 # ronchi-oss homebrew tap
 
+[![brew test-bot](https://github.com/ronchi-oss/homebrew-tap/actions/workflows/tests.yml/badge.svg)](https://github.com/ronchi-oss/homebrew-tap/actions/workflows/tests.yml)
+
 ## How do I install these formulae?
 
 ```sh
