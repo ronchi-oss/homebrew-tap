@@ -1,5 +1,5 @@
 class Chpath < Formula
-  desc "A POSIX shell utility for managing the value of PATH"
+  desc "POSIX shell utility for managing the value of PATH"
   homepage "https://github.com/ronchi-oss/chpath"
   url "https://github.com/ronchi-oss/chpath/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "17fd419d50e0481e70a691980e11bd3e8f0167c3aacc336781378c0819b4ae01"
