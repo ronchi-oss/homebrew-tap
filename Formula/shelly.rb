@@ -6,10 +6,10 @@ class Shelly < Formula
   license "MIT"
 
   def install
-    system './bin/shelly-build -s main > shelly'
-    system './bin/shelly-build bash_completion > shelly-completion.bash'
-    bin.install 'shelly'
-    bash_completion.install 'shelly-completion.bash' => 'shelly'
+    system "./bin/shelly-build -s main > shelly"
+    system "./bin/shelly-build bash_completion > shelly-completion.bash"
+    bin.install "shelly"
+    bash_completion.install "shelly-completion.bash" => "shelly"
   end
 
   test do
