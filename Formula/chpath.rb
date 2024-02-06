@@ -1,8 +1,8 @@
 class Chpath < Formula
   desc "POSIX shell utility for managing the value of PATH"
   homepage "https://github.com/ronchi-oss/chpath"
-  url "https://github.com/ronchi-oss/chpath/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "17fd419d50e0481e70a691980e11bd3e8f0167c3aacc336781378c0819b4ae01"
+  url "https://github.com/ronchi-oss/chpath/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "0d2dc3b2be8198d0f5d726086b0b927cbf76f38f3c3add6d36f5a0412fd977da"
   license "MIT"
 
   depends_on "shelly" => :build
@@ -15,6 +15,6 @@ class Chpath < Formula
   end
 
   test do
-    system ". #{opt_prefix}/src/chpath.sh && chpath version"
+    system ". #{opt_prefix}/src/chpath.sh && line=\"$(chpath version)\" && test \"${line% *}\" = 'chpath version'"
   end
 end
