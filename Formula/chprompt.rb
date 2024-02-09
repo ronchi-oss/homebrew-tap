@@ -1,8 +1,8 @@
 class Chprompt < Formula
   desc "Manage your bash PS1 prompt with ease"
   homepage "https://github.com/ronchi-oss/chprompt"
-  url "https://github.com/ronchi-oss/chprompt/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "61ec0792deacdde3efe787e8b67e8ee4b70fa9ef8fb87cbbe9b459b2e7ac3cb9"
+  url "https://github.com/ronchi-oss/chprompt/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "fcff5328ec887be74cf8ecaf27689656256587bbae131b07c07e090530f4cbb0"
   license "MIT"
 
   depends_on "shelly" => :build
